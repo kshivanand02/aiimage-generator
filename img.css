@@ -1,0 +1,55 @@
+#kl{
+    width: 400px;
+    height: 300px;
+}
+
+.aiimagegenerator{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+.header{
+    font-size: 70px;
+    font-weight: 500;
+    padding-bottom: 30px;
+}
+.header span{
+   color: #DE1B89;
+   font-weight: 600; 
+}
+.searchbar{
+    display: flex;
+    width: 1000px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5rem;
+    background: #1F3540;
+}
+.searchinput{
+    width: 600px;
+    height:40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    padding-left: 35px;
+    margin-right: 35px;
+}
+.generatorbtn{
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    background: #DE1B89;
+}
